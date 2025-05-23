@@ -11,7 +11,6 @@
 🎓 Estudante de **Bacharelado em Tecnologia da Informação** na **Univesp** (2023 - 2026).  
 💼 Estagiário na **TIM S/A** na área de **People Support Systems**.  
 👨‍💻 Desenvolvedor Back-end em formação, apaixonado por **APIs REST, bancos de dados e sistemas escaláveis**.
-
 📍 São Paulo, SP, Brasil  
 📧 Contato: [thiagodevoliveira@hotmail.com](mailto:thiagodevoliveira@hotmail.com) | [thiagosoaresccb@gmail.com](mailto:thiagosoaresccb@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/thiago-silva-de-oliveira-18240b128/) | [GitHub](https://github.com/th-root)  
