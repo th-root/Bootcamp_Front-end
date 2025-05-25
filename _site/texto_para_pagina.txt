@@ -1,0 +1,65 @@
+HTML, que significa HyperText Markup Language ou Linguagem de Marcação de Hipertexto, é a linguagem fundamental para construir páginas web. Ela define a estrutura e o conteúdo de uma página, determinando como o navegador deve exibi-la. É o bloco de construção básico da web, permitindo a criação de textos, imagens, vídeos e outros elementos em uma página. 
+
+(h3)O que é HTML?
+
+Linguagem de marcação:
+O HTML usa tags (marcadores) para envolver e estruturar o conteúdo, indicando a função de cada elemento (ex: <p> para parágrafo, <h1> para título). 
+
+Estrutura da página:
+
+Define como o conteúdo será organizado, criando elementos como títulos, parágrafos, listas, tabelas e links. 
+
+Semântica:
+
+As tags HTML também podem ter um significado semântico, ajudando a definir o tipo de conteúdo (ex: <article>, <header>, <footer> em HTML5). 
+
+Não é linguagem de programação:
+
+Diferente de linguagens como JavaScript, o HTML não permite lógica de programação. Ele apenas define a estrutura e o conteúdo. 
+Como funciona o HTML?
+
+Tags:
+
+As tags HTML são usadas para delimitar elementos (ex: <p>Este é um parágrafo.</p>). 
+
+Atributos:
+
+As tags podem ter atributos que fornecem informações adicionais sobre o elemento (ex: <img src="imagem.jpg" alt="Descrição da imagem">). 
+
+Elementos:
+
+Cada tag, com seu conteúdo e atributos, forma um elemento HTML, que compõe a estrutura da página. 
+
+Navegador:
+
+O navegador lê o código HTML e interpreta as tags para exibir a página, seguindo a estrutura e o conteúdo definidos.
+
+(h2)Importância do HTML:
+
+Base da web:
+
+É a base para a criação de qualquer página web, sendo essencial para a estrutura e apresentação de conteúdo. 
+
+Semântica e SEO:
+
+A utilização de tags semânticas ajuda na indexação e busca por mecanismos de busca, melhorando a visibilidade da página. 
+
+Acessibilidade:
+
+O HTML bem estruturado contribui para a acessibilidade da web, facilitando o acesso para pessoas com deficiência. 
+
+Interação com outros elementos:
+
+O HTML funciona em conjunto com CSS (para aparência) e JavaScript (para funcionalidade) para criar páginas interativas e dinâmicas.
+
+Exemplos de uso:
+
+Estruturar um parágrafo: <p>Este é um parágrafo de exemplo.</p>. 
+
+Criar um título: <h1>Este é um título principal</h1>. 
+
+Adicionar uma imagem: <img src="imagem.jpg" alt="Descrição da imagem">. 
+
+Criar um link: <a href="https://www.google.com">Clique aqui para visitar o Google</a>. 
+
+Em resumo, o HTML é uma linguagem fundamental para a criação de páginas web, definindo a estrutura, o conteúdo e a semântica de cada elemento. Ele é o alicerce da web, permitindo a construção de páginas que podem ser visualizadas em navegadores. 
