@@ -1,37 +1,47 @@
+/* Estiliza o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 40px;
-}
-code {
-    color: #000;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: monospace;
-}
-img {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin: auto;
-    padding: 50px;
+    font-family: Arial, sans-serif; /* Define a fonte principal */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 40px; /* Espaçamento externo em todos os lados */
 }
 
+/* Estiliza elementos <code> */
+code {
+    color: #000; /* Cor do texto */
+    padding: 2px 4px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    font-family: monospace; /* Usa uma fonte monoespaçada */
+}
+
+/* Estiliza todas as imagens */
+img {
+    width: 200px; /* Largura fixa */
+    height: auto; /* Altura ajustada proporcionalmente */
+    display: block; /* Exibe a imagem como bloco */
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 50px; /* Espaçamento interno em todos os lados */
+}
+
+/* Estiliza títulos <h1> */
 h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
+    font-size: 3em; /* Tamanho grande para destaque */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor escura para melhor leitura */
 }
+
+/* Estiliza subtítulos <h4> */
 h4 {
-    font-size: 1.5em;
-    margin-bottom: 50px;
-    text-align: center;
-    color: #666;
+    font-size: 1.5em; /* Tamanho moderado */
+    margin-bottom: 50px; /* Espaço abaixo do subtítulo */
+    text-align: center; /* Centraliza o texto */
+    color: #666; /* Cor cinza médio */
 }
+
+/* Estiliza o rodapé */
 footer {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 0.8em;
-    color: #999;
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px; /* Espaço acima do rodapé */
+    font-size: 0.8em; /* Fonte menor */
+    color: #999; /* Cor cinza clara */
 }

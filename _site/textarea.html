@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Início do formulário; a função 'validar' será chamada ao enviar -->
+    <form onsubmit="validar">
+        
+        <br>
+
+        <!-- Campo de texto para o nome do usuário -->
+        <label for="">Nome: 
+            <input type="text"> <!-- Entrada de texto sem atributo 'name', então não será enviada ao servidor -->
+        </label> 
+        
+        <br><br>
+
+        <!-- Rótulo para o campo de seleção de cargo -->
+        <label for="">Cargo: </label>
+        
+        <br>
+
+        <!-- Campo select com seleção múltipla de opções -->
+        <select name="cargo" id="cargo" multiple>
+
+            <!-- Opção padrão para orientar o usuário -->
+            <option value="">Selecione o cargo</option>
+
+            <!-- ATENÇÃO: <br> aqui é inválido dentro de <select> e deve ser removido -->
+            <br> 
+
+            <!-- Opção para Desenvolvedor Júnior -->
+            <option value="desenvolvedorjr">Desenvolvedor JR</option>
+
+            <!-- Opção para Desenvolvedor Pleno -->
+            <option value="desenvolvedorpl">Desenvolvedor Pleno</option>
+
+            <!-- Opção para Desenvolvedor Sênior -->
+            <option value="desenvolvedorsr">Desenvolvedor JSênior</option>
+
+            <!-- Opção para Gerente de Projetos -->
+            <option value="projectowner">Gerente de Projetos</option>
+        </select>  
+
+        <br><br> <!-- Quebra dupla de linha para espaçamento visual -->
+
+        <!-- Rótulo para o campo de mensagem -->
+        <label for="">Mensagem</label><br>
+
+        <!-- Área de texto para o usuário digitar uma mensagem -->
+        <!-- cols define a largura (em colunas) e rows a altura (em linhas) -->
+        <textarea name="message" id="" cols="70" rows="10"></textarea>
+
+        <br><br> <!-- Mais espaçamento visual -->
+
+        <!-- Botão para enviar o formulário -->
+        <button type="submit">Enviar</button>
+        
+    </form>
+</body>
+</html>
