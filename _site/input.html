@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Início do formulário com ação definida para "https://localhost" -->
+    <form action="https://localhost">
+
+        <!-- Campo de texto simples -->
+        <label for="_blank">Text: 
+            <input type="text" name="campo1" placeholder="Campo Texto"><br>
+        </label><br><br>  
+
+        <!-- Campo numérico com valores entre 0 e 100, com passo de 5 -->
+        <label for="action">Number: 
+            <input type="number" name="campo2" placeholder="Campo Número" min="0" max="100" step="5"><br>
+        </label><br><br>
+
+        <!-- Botão de ação sem função semântica (não envia o formulário) -->
+        <label for="action">Button: 
+            <input type="button" value="Enviar">
+        </label><br><br>
+
+        <!-- Botão semântico, geralmente usado para enviar formulários -->
+        <label for="action">Button com semântica: 
+            <button>Enviar</button>
+        </label><br><br>
+
+        <!-- Seletor de intervalo (slider) -->
+        <label for="action">Range: 
+            <input type="range">
+        </label><br><br>
+
+        <!-- Seletor de cor -->
+        <label for="action">Color: 
+            <input type="color">
+        </label><br><br>
+
+        <!-- Campo para e-mail com validação de formato -->
+        <label for="action">E-mail: 
+            <input type="email">
+        </label><br><br>
+
+        <!-- Campo para URL com validação -->
+        <label for="action">URL: 
+            <input type="url">
+        </label><br><br>
+
+        <!-- Campo para selecionar data -->
+        <label for="action">Date: 
+            <input type="date">
+        </label><br><br>
+
+        <!-- Campo para data e hora (pouco suportado) -->
+        <label for="action">Datetime: 
+            <input type="datetime">
+        </label><br><br>
+
+        <!-- Campo para data e hora local -->
+        <label for="action">Datetime-local: 
+            <input type="datetime-local">
+        </label><br><br>
+
+        <!-- Campo para selecionar semana do ano -->
+        <label for="action">Week: 
+            <input type="week">
+        </label><br><br>
+
+        <!-- Campo para selecionar mês e ano -->
+        <label for="action">Month: 
+            <input type="month">
+        </label><br><br>
+
+        <!-- Campo de busca -->
+        <label for="action">Search: 
+            <input type="search">
+        </label><br><br>
+
+        <!-- Campo para telefone -->
+        <label for="action">Tel: 
+            <input type="tel">
+        </label><br><br> 
+
+        <!-- Campo para selecionar horário -->
+        <label for="action">Time: 
+            <input type="time">
+        </label><br><br>
+
+        <!-- Campo para senha (caracteres ocultos) -->
+        <label for="action">Password: 
+            <input type="password">
+        </label><br><br>
+
+        <!-- Campo para upload de arquivo -->
+        <label for="action">File: 
+            <input type="file">
+        </label><br><br>
+
+        <!-- Caixa de seleção (checkbox) com duas opções -->
+        <label for="action">Checkbox: 
+            <input type="checkbox" name="campo3" value="opcao1"> Opção 1
+        </label><br>
+        <label for="action">
+            <input type="checkbox" name="campo3" value="opcao2"> Opção 2
+        </label><br><br>
+
+        <!-- Botões de opção (radio), apenas uma opção pode ser selecionada -->
+        <label for="action">Radio: 
+            <input type="radio" name="campo4" value="opcao1"> Opção 1
+        </label><br>
+        <label for="action">
+            <input type="radio" name="campo4" value="opcao2"> Opção 2
+        </label><br><br>
+
+        <!-- Menu suspenso com várias opções -->
+        <label for="action">Select: 
+            <select name="campo5">
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+                <option value="opcao3">Opção 3</option>
+            </select>
+        </label><br><br>
+
+        <!-- Área de texto para múltiplas linhas -->
+        <label for="action">Textarea: 
+            <textarea name="campo6" rows="4" cols="50" placeholder="Campo de Texto"></textarea>
+        </label><br><br>
+
+        <!-- Campo oculto, não visível ao usuário -->
+        <label for="action">Hidden: 
+            <input type="hidden" name="campo7" value="valor oculto">
+        </label><br><br>
+
+        <!-- Botão para enviar o formulário -->
+        <label for="action">Submit: 
+            <input type="submit" value="Enviar">
+        </label><br><br>
+
+        <!-- Botão para limpar todos os campos do formulário -->
+        <label for="action">Reset: 
+            <input type="reset" value="Limpar">
+        </label><br><br>  
+
+        <!-- Botão de envio representado por uma imagem -->
+        <label for="action">Image: 
+            <input type="image" src="https://via.placeholder.com/150" alt="Imagem">
+        </label><br><br>
+
+        <!-- Botão adicional para envio do formulário -->
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

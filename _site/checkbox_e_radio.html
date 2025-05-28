@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Formulário com envio por método GET, abrindo em nova aba -->
+<!-- OBS: onsubmit="validar" executa nenhuma função para validar o formulário antes de enviar -->
+<form onsubmit="validar()" method="get" target="_blank">
+
+    <!-- Título da escolha de pizza -->
+    <h3>Você selecionou: Pizza de mussarela</h3>
+
+    <!-- Pergunta sobre opcionais -->
+    <p>Quais opcionais deseja acrescentar?</p>
+
+    <!-- Caixas de seleção para opcionais extras na pizza -->
+    <label for="checkbox"> 
+        <input type="checkbox" name="opcional[]" value="Queijo"> + Queijo
+    </label><br>
+
+    <label for="checkbox"> 
+        <input type="checkbox" name="opcional[]" value="Bacon"> + Bacon
+    </label><br>
+
+    <label for="checkbox"> 
+        <input type="checkbox" name="opcional[]" value="Azeitona"> + Azeitona
+    </label><br>
+
+    <label for="checkbox"> 
+        <input type="checkbox" name="opcional[]" value="Cheddar"> + Cheddar
+    </label><br><br>
+
+    <!-- Pergunta sobre borda recheada -->
+    <p>Borda Recheada?</p>
+
+    <!-- Botões de seleção (radio) para borda recheada -->
+    <input type="radio" name="Borda" value="sim"> Sim<br>
+    <input type="radio" name="Borda" value="nao" checked> Não<br><br>
+
+    <!-- Botão para enviar o formulário -->
+    <button type="submit">Enviar</button>
+
+    <!-- Botão para limpar os campos selecionados -->
+    <button type="reset">Limpar</button>
+
+</form>
+
+</body>
+</html>
