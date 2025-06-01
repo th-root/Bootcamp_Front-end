@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro Profissional</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <h2 style="text-align:center;">Formulário de Cadastro Profissional</h2>
+
+    <form action="/enviar" method="post">
+        <div>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <div class="row">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required> 
+                </div>                   
+                <div class="row">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>                    
+                </div>
+            </fieldset>
+            <fieldset><legend>Informações Profissionais</legend>
+                <div class="row">
+                    <label for="area">Área de atuação:</label>
+                    <select id="area" name="area" required>
+                        <option value="">Selecione</option>
+                        <option value="desenvolvimento">Desenvolvimento</option>
+                        <option value="design">Design</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="administrativo">Administrativo</option>
+                        <option value="outra">Outra</option>
+                    </select>
+
+                    <label for="experiencia">Experiência profissional:</label>
+                    <textarea id="experiencia" name="experiencia" rows="4"
+                        placeholder="Descreva brevemente suas experiências anteriores..."></textarea>
+                </div>
+                <div class="row">
+                    <label for="habilidades">Habilidades técnicas:</label>
+                    <textarea id="habilidades" name="habilidades" rows="3"
+                        placeholder="Ex: HTML, CSS, JavaScript, Python, etc."></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Redes Sociais e Currículo</legend>                
+                <div class="row">
+                    <label for="linkedin">Perfil do LinkedIn:</label>
+                    <input type="url" id="linkedin" name="linkedin"
+                        placeholder="https://www.linkedin.com/in/seu-perfil">
+                    <label for="github">Perfil do GitHub:</label>
+                    <input type="url" id="github" name="github" placeholder="https://github.com/seu-usuario">
+                </div>
+                <div class="row">
+                    <label for="curriculo">Currículo:</label>
+                    <input type="url" id="curriculo" name="curriculo" placeholder="https://exemplo.com/curriculo.pdf">
+                </div>
+            </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>
