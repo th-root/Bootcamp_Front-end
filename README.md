@@ -80,3 +80,17 @@
 - Introdução ao Desenvolvimento Web com JavaScript  
 - Criando um Projeto com HTML/CSS para Listagem de Pokémon  
 - Dominando o Protocolo HTTP e Integrando com a PokeAPI  
+
+## 🧠 Convenções de Nomeação
+
+| Item      | Convenção                    | Exemplo             |
+|-----------|------------------------------|---------------------|
+| Pasta     | kebab-case                   | `user-controller/`  |
+| Arquivo   | kebab-case                   | `get-user.ts`       |
+| Variável  | camelCase                    | `userId`            |
+| Função    | camelCase + verbo no início  | `fetchData()`       |
+| Classe    | PascalCase                   | `UserService`       |
+| Interface | PascalCase com `I` opcional  | `User`, `IUser`     |
+
+
+
