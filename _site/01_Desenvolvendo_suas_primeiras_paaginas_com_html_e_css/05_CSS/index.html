@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Aprenda a criar páginas web com HTML e CSS. Neste curso, você vai desenvolver suas primeiras páginas e entender os conceitos básicos de estilização.">
+    <meta name="keywords" content="HTML, CSS, desenvolvimento web, páginas web, curso de HTML, curso de CSS">
+    <title>Fundos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Fundos</h1>
+        <div class="exemplo">
+
+        </div>
+        <p>O CSS permite definir fundos para elementos HTML, seja com cores sólidas, imagens ou gradientes.</p>
+
+        <section>
+            <h2>Cor de Fundo</h2>
+            <p>Você pode definir uma cor de fundo usando a propriedade <code>background-color</code>.</p>
+          <pre>  
+                <code>
+                    body {
+                    background-color: #000;  /* Cor cinza claro */
+                    }
+                </code>
+            </pre>
+            <p>Isso aplicará um fundo cinza claro a toda a página.</p>
+
+            <h2>Imagem de Fundo</h2>
+            <p>Para adicionar uma imagem de fundo, use a propriedade <code>background-image</code>.</p>
+            <pre>
+                <code>
+                    body {
+                        background-image: url('path/to/image.jpg');  /* Caminho para a imagem */
+                        background-size: cover;  /* Cobre todo o elemento */    
+                    }
+                </code>
+            </pre>
+            <p>Isso aplicará a imagem como fundo, cobrindo todo o elemento.</p>
+
+            <h2>Gradiente de Fundo</h2>
+            <p>Você também pode criar fundos com gradientes usando a propriedade <code>background</code>.</p>
+            <pre>
+                <code>
+                    body {
+                        background: linear-gradient(to right, #ff7e5f, #feb47b);  /* Gradiente do rosa ao laranja */
+                    }
+                </code>
+            </pre>
+            <p>Isso criará um gradiente linear que vai do rosa ao laranja.</p>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

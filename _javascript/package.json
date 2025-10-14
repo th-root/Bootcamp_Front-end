@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
+
+{
+  "type": "module"
+}
+
+{
+  "name": "aula02",
+  "version": "1.0.0",
+  "description": "Calculadora de custo de viagem em JavaScript",
+  "main": "aula02.js",
+  "scripts": {
+    "start": "node aula02.js"
+  },
+  "author": "Thiago",
+  "license": "ISC"
+}
