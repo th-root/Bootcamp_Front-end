@@ -1,19 +1,18 @@
-const OFFSET = 0;
-const LIMIT = 10;
-const URL = `https://pokeapi.co/api/v2/pokemon?offset=${OFFSET}&limit=${LIMIT}`;
+function convertPokemonTypeToHtml(pokemonTypes) {
+    return pokemonTypes.map((typeSlot) => `<li class="type">${typeSlot.type.name}</li>`)
+}
 
 function createPokemonCardHtml(pokemon) {
     return `
         <li class="pokemon">
-            <span class="number">#001</span>
+            <span class="number">#${String(pokemon.order).padStart(3, '0')}</span>
             <span class="name">${pokemon.name}</span> 
 
             <div class="details">
                 <ol class="types">
-                    <li class="type">Grass</li>
-                    <li class="type">Poison</li>
+                    ${convertPokemonTypeToHtml(pokemon.types).join('')}
                 </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="${pokemon.name}">
+                <img src="${pokemon.sprites.other.dream_world.front_default}" alt="${pokemon.name}">
             </div>
         </li>
     `;
@@ -21,17 +20,7 @@ function createPokemonCardHtml(pokemon) {
 
 const POKEMONLIST = document.getElementById('pokemonsList');
 
-POKEAPI.getPokemons(OFFSET, LIMIT).then((pokemons) => {
-
-    const listItems = [];
-
-    listItems.push(...pokemons.map(createPokemonCardHtml));
-
-    POKEMONLIST.innerHTML += listItems.join('');
-    
-    // pokemons.map(pokemon => {
-    //     return createPokemonCardHtml(pokemon);
-    // });
-         
-    // POKEMONLIST.innerHTML += pokemons.map(createPokemonCardHtml).join('');
+POKEAPI.getPokemons().then((pokemons = []) => {
+    const NEWLIST = pokemons.map(createPokemonCardHtml).join('');
+    POKEMONLIST.innerHTML = NEWLIST;
 });
